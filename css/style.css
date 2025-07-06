@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #4f6f8c;
+    color: #333;
+}
+h1, h2 {
+    text-align: center;
+    margin: 20px 0;
+    color: #e0e0e0;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: auto;
+}
+.gridProductos {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: auto;
+}
+.grid-categorias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 20px auto;
+    list-style: none;
+}
+.grid-categorias li {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    width: 180px;
+    text-align: center;
+}
+.grid-categorias button {
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #3c5473;
+    border: none;
+    border-radius: 6px;
+}
+.grid-categorias button a {
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+    display: block;
+}
+.grid-categorias button:hover {
+    background-color: #0056b3;
+}
+li {
+    background-color: #fff;
+    margin-bottom: 12px;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button {
+    padding: 8px 12px;
+    background-color: #94a69f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+button:hover {
+    background-color: #0056b3;
+}
+#totalCarrito {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.boton-eliminar {
+    margin-left: 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.boton-eliminar:hover {
+    background-color: #c82333;
+}
+button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+button a:hover {
+    text-decoration: underline;
+}
+.botones-nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.botones-nav button {
+    padding: 8px 12px;
+}
+.div-barra-nav {
+    display: flex;
+    justify-content: center;
+}
+.barra-nav {
+    background-color: transparent;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.barra-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.barra-nav li {
+    display: inline;
+}
+.barra-nav a {
+    color: #94a69f;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+.barra-nav a:hover {
+    background-color: #0056b3;
+}
+#cantidadCarrito {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+    color: #444;
+}
+#vaciarCarrito {
+    display: block;
+    margin: 20px auto;
+    background-color: #e24040;
+    color: #333;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+.productos-grid {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 25px; 
+    padding: 20px; 
+    justify-content: center;
+    max-width: 1200px; 
+    margin: 20px auto; 
+}
+.producto-card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px; 
+    text-align: center;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.producto-card:hover {
+    transform: translateY(-8px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+.producto-imagen {
+    max-width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 8px; 
+    margin-bottom: 15px; 
+}
+.producto-nombre {
+    font-size: 1.3em; 
+    color: #333; 
+    margin-bottom: 10px;
+    font-weight: 600; 
+}
+.producto-precio {
+    font-size: 1.2em;
+    color: #007bff; 
+    font-weight: bold; 
+    margin-bottom: 20px; 
+}
+.botonAgregar {
+    background-color: #28a745;
+    color: white; 
+    border: none; 
+    padding: 12px 25px; 
+    border-radius: 6px; 
+    cursor: pointer; 
+    font-size: 1.05em; 
+    font-weight: 500; 
+    transition: background-color 0.2s ease; 
+    width: 100%; 
+    max-width: 200px; 
+}
+.botonAgregar:hover {
+    background-color: #218838; 
+}
