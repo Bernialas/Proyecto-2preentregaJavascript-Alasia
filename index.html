@@ -6,6 +6,7 @@
     <title>Carrito de compras</title>
     <link rel="stylesheet" href="./css/style.css">
     <script src="./script/main.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
 </head>
 <body>
     <header>
@@ -14,37 +15,30 @@
     
     <main>
         <h1>Tienda de ropa</h1>
+
         <div class="botones-nav">
             <button>
-                <a href="./pages/carrito.html">Ir al carrito</a>
+                <a href="./pages/carrito.html">Ir al carrito (<span id="contador-carrito">0</span>)</a>
             </button>
         </div>
         <h2>Productos</h2>
-    
-        <div>
-            <ul class="grid-categorias">
-                <li>
-                    <button>
-                        <a href="./pages/remeras.html">Remeras</a>
-                    </button>
-                </li>
-                <li>
-                    <button>
-                        <a href="./pages/buzos.html">Buzos</a>
-                    </button>
-                </li>
-                <li>
-                    <button>
-                        <a href="./pages/camperas.html">Camperas</a>
-                    </button>
-                </li>
-                <li>
-                    <button>
-                        <a href="./pages/pantalones.html">Pantalones</a>
-                    </button>
-                </li>
-            </ul>
+
+        <div class="div-barra-nav">
+            <nav class="barra-nav">
+                <ul class="grid-categorias">
+                    <li><button id="mostrarTodos">Productos</button></li>
+                    <li><button data-categoria="remeras">Remeras</button></li>
+                    <li><button data-categoria="buzos">Buzos</button></li>
+                    <li><button data-categoria="camperas">Camperas</button></li>
+                    <li><button data-categoria="pantalones">Pantalones</button></li>
+                </ul>
+            </nav>
         </div>
+
+        <div id="productos-container" class="productos-grid">
+
+        </div>
+
     </main>
 
     <footer>

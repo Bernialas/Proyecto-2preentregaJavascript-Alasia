@@ -58,10 +58,20 @@ document.addEventListener("DOMContentLoaded", () => {
     totalElemento.textContent = `Total de la compra: $${totalCompra}`;
 
     btnVaciar.addEventListener("click", () => {
-        const respuesta = confirm("¿Estás seguro que deseas vaciar el carrito?");
-        if (respuesta) {
-            localStorage.removeItem("carrito"); 
-            location.reload();
-        }
+        Swal.fire ({
+            title: "¿Estás seguro?",
+            text: "¡No podrás revertir esto!",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#3085d6",
+            cancelButtonColor: "#dd3333",
+            confirmButtonText: "Sí, vaciar carrito",
+            cancelButtonText: "Cancelar"
+        }) .then((result) => {
+            if (result.isConfirmed) {
+                localStorage.removeItem("carrito");
+                location.reload();
+            }
+        });
     });
 });

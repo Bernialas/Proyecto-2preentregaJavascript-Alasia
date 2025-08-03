@@ -1,0 +1,86 @@
+[
+    {
+        "id": "remera-lisa-mc-001",
+        "nombre": "Remera lisa manga corta",
+        "precio": 15000,
+        "categoria": "remeras",
+        "imagen": "../css/img/remera-manga-corta.jpeg"
+    },
+    {
+        "id": "chomba-lisa-mc-001",
+        "nombre": "Chomba lisa manga larga",
+        "precio": 35000,
+        "categoria": "remeras",
+        "imagen": "../css/img/remera-manga-larga.jpeg"
+    },
+    {
+        "id": "remera-est-mc-001",
+        "nombre": "Remera estampada manga corta",
+        "precio": 23000,
+        "categoria": "remeras",
+        "imagen": "../css/img/remera-estampada.jpeg"
+    },
+    {
+        "id": "buzo-liso-001",
+        "nombre": "Buzo liso",
+        "precio": 45000,
+        "categoria": "buzos",
+        "imagen": "../css/img/buzo-liso.jpeg"
+    },
+    {
+        "id": "buzo-polar-001",
+        "nombre": "Buzo polar",
+        "precio": 50000,
+        "categoria": "buzos",
+        "imagen": "../css/img/buzo-polar.jpeg"
+    },
+    {
+        "id": "buzo-capucha-001",
+        "nombre": "Buzo con capucha",
+        "precio": 50000,
+        "categoria": "buzos",
+        "imagen": "../css/img/buzo-capucha.jpeg"
+    },
+    {
+        "id": "campera-pluma-001",
+        "nombre": "Campera de pluma",
+        "precio": 175000,
+        "categoria": "camperas",
+        "imagen": "../css/img/campera-pluma.jpeg"
+    },
+    {
+        "id": "campera-impermeable-001",
+        "nombre": "Campera impermeable",
+        "precio": 200000,
+        "categoria": "camperas",
+        "imagen": "../css/img/campera-impermeable.jpeg"
+    },
+    {
+        "id": "campera-rompeviento-001",
+        "nombre": "Campera rompeviento",
+        "precio": 150000,
+        "categoria": "camperas",
+        "imagen": "../css/img/campera-rompeviento.jpeg"
+    },
+    {
+        "id": "pantalon-jean-001",
+        "nombre": "Pantalón jean",
+        "precio": 75000,
+        "categoria": "pantalones",
+        "imagen": "../css/img/pantalon-jean.jpeg"
+    },
+    {
+        "id": "pantalon-jogging-001",
+        "nombre": "Pantalón jogging",
+        "precio": 45000,
+        "categoria": "pantalones",
+        "imagen": "../css/img/pantalon-jogging.jpeg"
+    },
+    {
+        "id": "pantalon-impermeable-001",
+        "nombre": "Pantalón impermeable",
+        "precio": 120000,
+        "categoria": "pantalones",
+        "imagen": "../css/img/pantalon-impermeable.jpeg"
+    }
+]

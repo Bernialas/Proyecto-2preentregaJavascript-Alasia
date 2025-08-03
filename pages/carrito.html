@@ -5,42 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrito de compras</title>
     <link rel="stylesheet" href="../css/style.css">
-    <script src="../script/carrito.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../script/carrito.js" defer></script>
 </head>
 <body>
-    <header>
-
-    </header>
     
     <main>
         <h1>Carrito de compras</h1>
+        
         <div class="botones-nav">
             <button>
-                <a href="../index.html">Inicio</a>
+                <a href="../index.html">Volver a la tienda</a>
             </button>
         </div>
-        <div class="div-barra-nav">
-            <nav class="barra-nav">
-                <ul>
-                    <li><a href="./remeras.html">Remeras</a></li>
-                    <li><a href="./buzos.html">Buzos</a></li>
-                    <li><a href="./camperas.html">Camperas</a></li>
-                    <li><a href="./pantalones.html">Pantalones</a></li>
-                </ul>
-            </nav>
-        </div>
+
         <div>
             <ul id="listaCarrito" class="gridProductos"></ul>
             <p id="cantidadCarrito"></p>
             <p id="totalCarrito"></p>
         </div>
+        
         <div>
             <button id="vaciarCarrito">Vaciar carrito</button>
         </div>
     </main>
 
-    <footer>
-
-    </footer>
 </body>
 </html>
